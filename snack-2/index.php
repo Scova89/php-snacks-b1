@@ -4,6 +4,10 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
 
 <?php
 
+    $_GET["name"];
+    $_GET["mail"];
+    $_GET["age"];
+
 ?>
 
 
@@ -13,9 +17,16 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP Snacks blocco 1</title>
 </head>
 <body>
+    
+    <ul>
+        <?php 
+            
+        ?>
+    </ul>
+
     
 </body>
 </html>
