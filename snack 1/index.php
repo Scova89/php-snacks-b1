@@ -39,6 +39,15 @@ Olimpia Milano - Cantù | 55-60 -->
     <title>PHP Snacks blocco 1</title>
 </head>
 <body>
+
+    <h1>Risultati delle partite</h1>
+    <ul>
+        <?php
+            for($i = 0; $i < count($partite); $i++){
+                echo "<li>". $partite[$i]["squadraCasa"] . " - " . $partite[$i]["squadraOspite"] . " | " . $partite[$i]["puntiCasa"] . "-" . $partite[$i]["puntiOspite"] . "</li>";
+            }
+        ?>
+    </ul>
     
 </body>
 </html>
