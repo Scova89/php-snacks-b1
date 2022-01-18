@@ -2,7 +2,32 @@
 Olimpia Milano - Cantù | 55-60 -->
 
 <?php
-    
+    $partite = [
+        [
+            "squadraCasa" => "Olimpia Milano",
+            "puntiCasa" => 55,
+            "squadraOspite" => "Cantù",
+            "puntiOspite" => 60
+        ],
+        [
+            "squadraCasa" => "Genova",
+            "puntiCasa" => 45,
+            "squadraOspite" => "Cagliari",
+            "puntiOspite" => 30
+        ],
+        [
+            "squadraCasa" => "Roma",
+            "puntiCasa" => 25,
+            "squadraOspite" => "Napoli",
+            "puntiOspite" => 30
+        ],
+        [
+            "squadraCasa" => "Cervia",
+            "puntiCasa" => 60,
+            "squadraOspite" => "Ancona",
+            "puntiOspite" => 40
+        ],
+    ]
 ?>
 
 <!DOCTYPE html>
