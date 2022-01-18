@@ -4,9 +4,9 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
 
 <?php
 
-    $_GET["name"];
-    $_GET["mail"];
-    $_GET["age"];
+    $nome = $_GET["name"];
+    $indirizzo = $_GET["mail"];
+    $eta = $_GET["age"];
 
 ?>
 
@@ -21,11 +21,13 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
 </head>
 <body>
     
-    <ul>
+    <h1>
         <?php 
-            
+            if(strpos($_GET['mail'], '@')&&strpos($_GET['mail'], '.')){
+                echo "Accesso riuscito";
+            }
         ?>
-    </ul>
+    </h1>
 
     
 </body>
